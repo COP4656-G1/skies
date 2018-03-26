@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app= "http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.skies.ajayioluwatobi.skies.Throw_Phone"
+    android:background="@drawable/throw_phone_background">
+
+    <ImageView
+        android:id="@+id/hand_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/score_text"
+        app:srcCompat="@drawable/hand" />
+
+
+    <ImageView
+        android:id="@+id/phone_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignEnd="@+id/score_text"
+        android:layout_alignRight="@+id/score_text"
+        android:layout_below="@+id/spin_text"
+        app:srcCompat="@drawable/phone" />
+
+    <TextView
+        android:id="@+id/spin_text"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/phone_image"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/phone_image"
+        android:layout_marginTop="17dp"
+        android:text="SPIN YOUR PHONE"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/score_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="TextView"
+        android:textColor="@android:color/holo_orange_light"
+        android:textColorLink="@android:color/holo_orange_light"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/your_score_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/score_text"
+        android:layout_centerHorizontal="true"
+        android:text="YOUR SCORE IS"
+        android:textColor="@android:color/holo_orange_light"
+        android:textColorLink="@android:color/holo_orange_light"
+        android:textSize="40dp" />
+
+
+
+
+</RelativeLayout>

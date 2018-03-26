@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.skies.ajayioluwatobi.skies.MainActivity"
+    android:background="@drawable/skies_background">
+
+    <ImageButton
+        android:id="@+id/play_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="128dp"
+        app:srcCompat="@drawable/play_button" />
+
+    <ImageButton
+        android:id="@+id/options_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/play_button"
+        android:layout_alignStart="@+id/play_button"
+        android:layout_below="@+id/play_button"
+        android:layout_marginTop="38dp"
+        app:srcCompat="@drawable/options_button" />
+
+    <ImageButton
+        android:id="@+id/exit_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/options_button"
+        android:layout_alignStart="@+id/options_button"
+        android:layout_below="@+id/options_button"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/exit_button" />
+</RelativeLayout>

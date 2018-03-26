@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.skies.ajayioluwatobi.skies.InstructionActivity"
+    android:background="@drawable/instruction">
+
+
+    <TextView
+        android:id="@+id/spin_button"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="247dp"
+        android:layout_marginStart="247dp"
+        android:autoText="false"
+        android:clickable="true"
+        android:fontFamily="serif"
+        android:text="SPIN"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="50dp" />
+
+
+    <TextView
+        android:id="@+id/exit_instruction_button"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:autoText="false"
+        android:clickable="true"
+        android:fontFamily="serif"
+        android:text="EXIT"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="50dp" />
+
+    <CheckBox
+        android:id="@+id/terms_checkBox"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_above="@+id/exit_instruction_button"
+        android:layout_alignLeft="@+id/exit_instruction_button"
+        android:layout_alignStart="@+id/exit_instruction_button"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"
+        android:shadowColor="@android:color/holo_orange_light"
+        android:text="I AGREE"
+        android:textColor="@android:color/holo_orange_light"
+        android:textColorHighlight="@android:color/holo_orange_light"
+        android:textColorHint="@android:color/holo_orange_light"
+        android:textColorLink="@android:color/holo_orange_light"
+        android:textSize="24sp" />
+
+</RelativeLayout>
